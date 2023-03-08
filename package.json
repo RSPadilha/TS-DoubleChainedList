@@ -1,0 +1,25 @@
+{
+  "name": "doublechainedlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/RunList.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/dist/tests/*.test.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RSPadilha/TS-DoubleChainedList"
+  },
+  "author": "Ricardo Padilha",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "ts-jest": "^29.0.5",
+    "ts-node-dev": "^2.0.0"
+  }
+}

@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Node {
+export default class Node {
     value;
     previous;
     next;
@@ -8,4 +6,3 @@ class Node {
         this.value = value;
     }
 }
-exports.default = Node;

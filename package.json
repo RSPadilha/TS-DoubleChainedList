@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/RunList.ts",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "runlist": "node.exe dist/src/RunList.js"
   },
   "jest": {
     "preset": "ts-jest",
-    "testEnvironment": "node",
     "testMatch": ["**/dist/tests/*.test.js"]
   },
   "repository": {
